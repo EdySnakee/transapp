@@ -11,7 +11,7 @@
             <a href="{{ route('home') }}">Inicio</a>
             <a href="{{ route('blog') }}">Blog</a>
             <a href="{{ route('calendar') }}">Calendario</a>
-            <a href="#">Nosotres</a>
+            <a href="{{ route('neidan') }}">Neidan</a>
             <a href="#" class="nav-cta">Suscribirme</a>
         </nav>
         <button class="nav-toggle" aria-label="Abrir menú">≡</button>

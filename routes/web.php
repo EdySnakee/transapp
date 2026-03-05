@@ -13,3 +13,7 @@ Route::get('/blog', function () {
 Route::get('/calendario', function () {
     return view('calendar');
 })->name('calendar');
+
+Route::get('/neidan', function () {
+    return view('neidan');
+})->name('neidan');
