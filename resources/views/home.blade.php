@@ -150,6 +150,42 @@
 
         </section>
 
+        {{-- PRÓXIMOS ENCUENTROS (TEASER CALENDARIO) --}}
+        <section class="events-teaser" style="background: var(--color-bg-alt); padding: 4rem 2rem; border-radius: 2rem; margin: 4rem 0;">
+            <div class="section-heading-row" style="margin-bottom: 2rem;">
+                <h2 class="section-title">Encuentros y espacios seguros</h2>
+                <a href="{{ route('calendar') }}" class="section-link">Ver calendario completo</a>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+                <div class="event-card" style="background: var(--color-bg); padding: 1.5rem; border-radius: 1rem; border: 1px solid var(--color-border); transition: transform 0.2s;">
+                    <span class="pill pill--pink" style="margin-bottom: 1rem; display: inline-block;">Taller Virtual</span>
+                    <h3 class="article-title" style="margin-bottom: 0.5rem; font-size: 1.25rem;">Cuidado vocal y transición</h3>
+                    <div class="article-meta" style="color: var(--color-text-muted);">
+                        15 de Octubre · 18:00 hrs
+                    </div>
+                </div>
+                <div class="event-card" style="background: var(--color-bg); padding: 1.5rem; border-radius: 1rem; border: 1px solid var(--color-border); transition: transform 0.2s;">
+                    <span class="pill pill--pink" style="margin-bottom: 1rem; display: inline-block;">Presencial</span>
+                    <h3 class="article-title" style="margin-bottom: 0.5rem; font-size: 1.25rem;">Círculo: Masculinidades disidentes</h3>
+                    <div class="article-meta" style="color: var(--color-text-muted);">
+                        28 de Octubre · 16:00 hrs
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- DOSSIER ESPECIAL / BANNER --}}
+        <section class="banner-highlight" style="background: linear-gradient(135deg, var(--color-brand-pink) 0%, #ff8fa3 100%); color: white; padding: 4rem 2rem; border-radius: 2rem; text-align: center; margin: 4rem 0;">
+            <span style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.875rem; font-weight: 700; opacity: 0.9; display: block; margin-bottom: 1rem;">Dossier del mes</span>
+            <h2 style="font-family: 'Fraunces', serif; font-size: 2.5rem; margin-bottom: 1rem; line-height: 1.2;">Salud mental transmasculina</h2>
+            <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.125rem; line-height: 1.6; opacity: 0.95;">
+                Una recopilación de ensayos, entrevistas a terapeutas y testimonios sobre cómo transitar la ansiedad, la disforia y el burnout desde el cuidado colectivo.
+            </p>
+            <button style="background: white; color: var(--color-brand-pink); border: none; padding: 1rem 2rem; border-radius: 999px; font-weight: 600; font-family: 'Manrope', sans-serif; cursor: pointer; transition: transform 0.2s;">
+                Descargar Especial en PDF
+            </button>
+        </section>
+
         {{-- NEWSLETTER / COMUNIDAD --}}
         <section class="newsletter">
             <div>

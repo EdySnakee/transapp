@@ -8,8 +8,9 @@
             </div>
         </div>
         <nav class="nav">
-            <a href="#">Revista</a>
-            <a href="#">Secciones</a>
+            <a href="{{ route('home') }}">Inicio</a>
+            <a href="{{ route('blog') }}">Blog</a>
+            <a href="{{ route('calendar') }}">Calendario</a>
             <a href="#">Nosotres</a>
             <a href="#" class="nav-cta">Suscribirme</a>
         </nav>
