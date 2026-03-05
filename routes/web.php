@@ -7,8 +7,20 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/blog', function () {
-    return view('blog');
+    $posts = \App\Models\Post::with(['user', 'category'])
+        ->where('is_published', true)
+        ->latest('published_at')
+        ->get();
+
+    return view('blog', compact('posts'));
 })->name('blog');
+
+Route::get('/blog/{post:slug}', function (\App\Models\Post $post) {
+    if (!$post->is_published) {
+        abort(404);
+    }
+    return view('posts.show', ['post' => $post]);
+})->name('posts.show');
 
 Route::get('/calendario', function () {
     return view('calendar');
