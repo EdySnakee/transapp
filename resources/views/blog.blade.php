@@ -23,8 +23,6 @@
                 <a href="#" class="pill pill--pink" style="text-decoration: none; color: inherit;">Todos</a>
                 <a href="#" class="btn-secondary" style="padding: 0.5rem 1rem; border-radius: 999px; text-decoration: none;">Crónica</a>
                 <a href="#" class="btn-secondary" style="padding: 0.5rem 1rem; border-radius: 999px; text-decoration: none;">Ensayo</a>
-                <a href="#" class="btn-secondary" style="padding: 0.5rem 1rem; border-radius: 999px; text-decoration: none;">Guía</a>
-                <a href="#" class="btn-secondary" style="padding: 0.5rem 1rem; border-radius: 999px; text-decoration: none;">Archivo Visual</a>
             </div>
 
             <div class="articles-grid" style="grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">

@@ -1,7 +1,7 @@
 <header class="site-header">
     <div class="site-header-inner">
         <div class="brand">
-            <div class="brand-mark">T</div>
+            <img src="/images/neidan/2-logo-fondo-negro-high-rb11ka.webp" alt="Logo Translúcido" class="brand-mark" style="object-fit: cover; width: 50px; height: 50px;">
             <div>
                 <div class="brand-text-main">Translúcido</div>
                 <div class="brand-text-tagline">Nuevos hombres</div>

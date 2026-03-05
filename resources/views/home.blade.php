@@ -16,23 +16,21 @@
                     <span>de nuevos hombres</span>
                 </h1>
                 <p class="hero-subtitle">
-                    Translúcido es una revista digital para explorar masculinidades trans más suaves,
-                    diversas y brillantes. Ensayos, crónicas, imágenes y recursos para habitar el cuerpo
-                    con cuidado y deseo.
+                   Esta revista nace con la intención de visibilizar las transiciones masculinas, escuchar sus historias, sus valentías, atestiguar su día a día, crear comunidad y motivar a más chicos a tomar la decisión de ser valientes, felices y alinear su mente cuerpo y espíritu para lograr ser quienes realmente son.
                 </p>
                 <div class="hero-actions">
                     <button class="btn-primary">Leer la última edición</button>
                     <button class="btn-secondary">Explorar artículos</button>
                 </div>
                 <div class="hero-meta">
-                    Nueva edición cada mes · <strong>Sin paywall, con cuidado editorial</strong>
+                    En Translúcido, celebramos con orgullo a cada miembro de nuestra <strong>Comunidad</strong>
                 </div>
             </div>
 
             <div class="hero-cover-wrapper">
                 <div class="hero-bg-glow"></div>
                 <article class="hero-cover">
-                    <div class="hero-cover-image"></div>
+                    <div class="hero-cover-image" style="background-image: url('/images/neidan/image-high-qcebuc.webp'); background-size: cover; background-position: top center; height: 350px;"></div>
                     <div class="hero-cover-body">
                         <span class="pill pill--pink">Artículo de portada</span>
                         <h2 class="hero-cover-title">"Ser hombre sin dejar de ser suave"</h2>
@@ -41,37 +39,44 @@
                             como forma de resistencia frente a las masculinidades violentas.
                         </p>
                         <div class="hero-cover-meta">
-                            Por Juan X · 12 min de lectura · Edición 01 · Primavera
+                            Por Neidan · 12 min de lectura · Edición 01 · Primavera
                         </div>
                     </div>
                 </article>
             </div>
         </section>
 
-        {{-- SECCIONES DE LA REVISTA --}}
+        {{-- EMISIONES DE LA REVISTA --}}
         <section class="sections">
             <div class="section-heading-row">
-                <h2 class="section-title">Secciones de la revista</h2>
-                <a href="#" class="section-link">Ver índice completo</a>
+                <h2 class="section-title">Ediciones Publicadas</h2>
+                <a href="#" class="section-link">Ver archivo completo</a>
             </div>
 
             <div class="sections-grid">
-                <div class="section-card">
-                    <div class="section-card-label">Editorial</div>
-                    <div class="section-card-title">Cartas desde el cuerpo</div>
-                </div>
-                <div class="section-card">
-                    <div class="section-card-label">Crónica</div>
-                    <div class="section-card-title">Transitar la ciudad</div>
-                </div>
-                <div class="section-card">
-                    <div class="section-card-label">Archivo visual</div>
-                    <div class="section-card-title">Retratos translúcidos</div>
-                </div>
-                <div class="section-card">
-                    <div class="section-card-label">Guía práctica</div>
-                    <div class="section-card-title">Cuidado hormonal y emocional</div>
-                </div>
+                <a href="#" class="section-card" style="text-decoration: none;">
+                    <div class="section-card-label">Edición #01</div>
+                    <div class="section-card-title">Primavera Renacimiento</div>
+                    <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.5rem;">Cuerpos suaves en un mundo duro.</div>
+                </a>
+                
+                <a href="#" class="section-card" style="text-decoration: none;">
+                    <div class="section-card-label">Edición #02</div>
+                    <div class="section-card-title">Verano de Transiciones</div>
+                    <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.5rem;">El derecho al sol y a la visibilidad.</div>
+                </a>
+                
+                <a href="#" class="section-card" style="text-decoration: none;">
+                    <div class="section-card-label">Edición #03</div>
+                    <div class="section-card-title">Otoño de Cuidados</div>
+                    <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.5rem;">Tejiendo redes, salud hormonal y emocional.</div>
+                </a>
+                
+                <a href="mailto:articulos@translucido.com" class="section-card" style="text-decoration: none; border-color: var(--color-trans-blue); background: rgba(96, 165, 250, 0.05);">
+                    <div class="section-card-label" style="color: var(--color-trans-blue);">Convocatoria Abierta</div>
+                    <div class="section-card-title">Envía tu Artículo</div>
+                    <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.5rem;">Queremos leerte. Publica tu historia aquí.</div>
+                </a>
             </div>
         </section>
 
@@ -80,7 +85,7 @@
 
             <div>
                 <div class="section-heading-row">
-                    <h2 class="section-title">Notas recientes</h2>
+                    <h2 class="section-title">Artículos recientes</h2>
                     <a href="#" class="section-link">Ver todas</a>
                 </div>
 
@@ -174,16 +179,23 @@
             </div>
         </section>
 
-        {{-- DOSSIER ESPECIAL / BANNER --}}
-        <section class="banner-highlight" style="background: linear-gradient(135deg, var(--color-brand-pink) 0%, #ff8fa3 100%); color: white; padding: 4rem 2rem; border-radius: 2rem; text-align: center; margin: 4rem 0;">
-            <span style="text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.875rem; font-weight: 700; opacity: 0.9; display: block; margin-bottom: 1rem;">Dossier del mes</span>
-            <h2 style="font-family: 'Fraunces', serif; font-size: 2.5rem; margin-bottom: 1rem; line-height: 1.2;">Salud mental transmasculina</h2>
-            <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.125rem; line-height: 1.6; opacity: 0.95;">
-                Una recopilación de ensayos, entrevistas a terapeutas y testimonios sobre cómo transitar la ansiedad, la disforia y el burnout desde el cuidado colectivo.
-            </p>
-            <button style="background: white; color: var(--color-brand-pink); border: none; padding: 1rem 2rem; border-radius: 999px; font-weight: 600; font-family: 'Manrope', sans-serif; cursor: pointer; transition: transform 0.2s;">
-                Descargar Especial en PDF
-            </button>
+        {{-- BANNER PRIDE / BOLETOS --}}
+        <section class="banner-highlight" style="background: radial-gradient(circle at top right, rgba(239, 68, 68, 0.4), transparent 50%), radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.4), transparent 50%), linear-gradient(135deg, #111116 0%, #1a1a24 100%); border: 1px solid var(--color-border); color: white; padding: 4.5rem 2rem; border-radius: var(--radius-xl); text-align: center; margin: 4rem 0; position: relative; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.5);">
+            {{-- Acento Pride Superior --}}
+            
+            <div style="position: relative; z-index: 1;">
+                <span style="display: inline-flex; align-items: center; gap: 0.5rem; text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.8rem; font-weight: 800; opacity: 0.9; margin-bottom: 1.5rem; color: white; background: rgba(255,255,255,0.05); padding: 0.5rem 1rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1);">
+                    <span style="display: block; width: 8px; height: 8px; border-radius: 50%; background: #25D366; box-shadow: 0 0 10px #25D366;"></span>
+                    ¡Marcha con Nosotres!
+                </span>
+                <h2 style="font-family: 'Fraunces', serif; font-size: 3.5rem; margin-bottom: 1.5rem; line-height: 1.1;">Asegura tu lugar en la<br><span style="background: linear-gradient(90deg, var(--color-trans-pink), #FFD93D, var(--color-trans-blue)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Caravana Translúcido</span></h2>
+                <p style="max-width: 600px; margin: 0 auto 3rem; font-size: 1.125rem; line-height: 1.7; color: var(--color-text-muted);">
+                    Vive el <strong style="color: white;">Día del Pride</strong> rodeado de comunidad, seguridad y orgullo. Nuestro cupo es limitado para garantizar un espacio cuidado y de resistencia para masculinidades trans.
+                </p>
+                <button style="background: white; color: #000; border: none; padding: 1.25rem 2.5rem; border-radius: 999px; font-weight: 800; font-family: 'Manrope', sans-serif; cursor: pointer; transition: transform 0.2s, background 0.2s; font-size: 1.1rem;">
+                    Comprar Boleto Ahora
+                </button>
+            </div>
         </section>
 
         {{-- NEWSLETTER / COMUNIDAD --}}
