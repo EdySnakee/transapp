@@ -8,4 +8,16 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Display font for títulos de revista */
+    --font-display: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Colores de marca Translúcido */
+    --color-trans-pink: #f9a8e4;  /* rosa trans */
+    --color-trans-blue: #1d62b8;  /* azul bandera */
+
+    /* Grises editoriales / humo */
+    --color-smoke-light: #f5f5f7;
+    --color-smoke-dark: #9c9ac1;
 }
